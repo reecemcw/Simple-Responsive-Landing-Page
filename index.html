@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UI | UX | Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+    <script>
+        $(function () {
+            $('li').on('mouseover', function () {
+                $(this).toggleClass('be-bold');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Coming Soon</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="logo">
+            <img src="img/logo.svg" alt="logo">
+        </div>
+
+        <div class="header">
+            <h1>minimalist greyscale ux</h1>
+        </div>
+
+        <div class="tagline">
+            <p>A Language in itself.</p>
+        </div>
+
+        <button class="btn">
+            See. Sense.
+        </button> 
+    </div>
+
+    <footer>
+        <p>reecemcw@gmail.com | UI/UX Design</p>
+    </footer> 
+</body>
+</html>
